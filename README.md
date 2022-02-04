@@ -7,4 +7,4 @@
 
 ### Содержание
 * [Массивы (неполный список решений)](https://github.com/SunMeve/hexlet-tasks/tree/main/src/array)
-* [Объекты (работаю с этим курсом на данный момент)](https://github.com/SunMeve/hexlet-tasks/tree/main/src/object)
+* [Объекты](https://github.com/SunMeve/hexlet-tasks/tree/main/src/object)
