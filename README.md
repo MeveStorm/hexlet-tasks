@@ -8,3 +8,4 @@
 ### Содержание
 * [Массивы (неполный список решений)](https://github.com/SunMeve/hexlet-tasks/tree/main/src/array)
 * [Объекты](https://github.com/SunMeve/hexlet-tasks/tree/main/src/object)
+* [Функции](https://github.com/MeveStorm/hexlet-tasks/tree/main/src/function)
