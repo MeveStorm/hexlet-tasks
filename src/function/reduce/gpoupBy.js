@@ -2,10 +2,11 @@ import _ from 'lodash';
 
 const groupBy = (arrayObj, property) => {
   const cb = (acc, obj) => {
-    if (!_.has(acc, obj[property])) { // проверяем, есть ли данное свойство в аккумуляторе
-      acc[obj[property]] = [];
+    const groupName = obj[property];
+    if (!_.has(acc, groupName)) { // проверяем, есть ли данное свойство в аккумуляторе
+      acc[groupName] = [];
     }
-    acc[obj[property]].push(obj);
+    acc[groupName].push(obj);
     return acc;
   };
   return arrayObj.reduce(cb, {});
